@@ -12,7 +12,7 @@ app.use(bodyparser.urlencoded({extended:true}));
 
 // console.log(__dirname);
 
-app.get("/Devjammails", (req,res)=>{
+app.get("/backend", (req,res)=>{
   res.sendFile(__dirname + "/Devotp.html");
 });
 
@@ -22,9 +22,9 @@ app.post("/", (req,res)=> {
   console.log(`mail2: ${mail2}`);
   res.send("data received");
 
-if(mail1){
-  res.redirect("/Devjammails");
-}
+// if(mail1){
+//   res.redirect("/backend");
+// }
 
 var OTP = Math.floor(Math.random()*9000);
 
@@ -68,11 +68,11 @@ async function main() {
   // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
 
 
-// app.get("/Devjammails")
+// app.get("/backend")
 
 
   //function to validate otp
-  // app.post("/Devjammails", (req,res)=> {
+  // app.post("/backend", (req,res)=> {
   //   var {userotp} = req.body;
   //   console.log(`userotp: ${userotp}`);
     
