@@ -1,0 +1,165 @@
+.naving{
+   
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0.5rem 1rem white;
+    height: 75px;
+
+}
+.site-logo{
+    position: relative;
+    margin-top: 7px;
+    margin-right:20px;
+    margin-left: 28px;
+    height: 55px;
+    border-radius: 27px;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+#navbar ul,li {
+    display: flex;
+    list-style: none;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+#navbar ul li a{
+    /* position: fixed; */
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+    display: inline-block;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: rgb(236, 233, 240);
+    
+    
+}
+#navbar ul li a:hover{
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+    background-color: rgba(178, 86, 25, 0.9);
+    border-radius: 20px;
+    
+}
+*{
+    margin: 0;padding: 0;
+}
+  .image{
+      height: 40px;
+    }
+    
+    .myvideo{
+        height: 80%;
+        width: 100%;
+        margin-top: 75px;
+    }
+    .item a{
+        text-decoration: none;
+        color: rgb(180, 1, 1);
+        
+    }
+    .pizzabox-1{
+        margin: 38px;
+        margin-top: 5px;
+        height: 410px;
+        width: 330px;
+        border-radius: 7px;
+        border: 3px solid rgb(12, 11, 11);
+        background-color: rgb(255, 255, 255);
+    }
+    .maindiv{
+        background-color: #ffffff;
+        
+    }
+    .menuimg{
+        height: 240px;
+        width: 330px;
+    }
+    .demo{
+    font-size: 50px;
+    top: 550px;
+}
+.itemname{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 300;
+    text-align: center;
+}
+.itemDescription{
+    text-align: center;
+}
+.btn{
+    background: #c41f51;
+    background-image: linear-gradient(to bottom, #f63535, #830e0e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 8px 38px 8px 41px;
+    text-decoration: none;
+    margin: -5px;
+    margin-left:14px;
+}
+.btn .pay{
+    text-decoration: none;
+    color: white;
+
+}
+.btn:hover {
+    background: #c41f51;
+    text-decoration: none;
+}
+.hide{
+    visibility: hidden;
+    position: relative;
+    bottom: 110px;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menubar{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    width: 80%;
+    margin-left: 152px;
+    margin-top: 20px;
+    border-radius: 21px;
+}
+.menu .menubar a{
+    color: white;
+    text-decoration: none;
+}
+.m{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 2.4rem;
+    margin-left: 56px;
+}
+.m:hover{
+    border-radius: 20px;
+    background-color: #770101;
+    background: #bf0b23;
+    text-decoration: none;
+}
+span{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 1.2px;
+    word-spacing: -0.8px;
+    color: black;
+    font-size: 33px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 7px;
+    bottom: 53px;
+    font-weight: 600;
+}
