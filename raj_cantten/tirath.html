@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ojha.css">
     <script src="https://kit.fontawesome.com/38fc30680a.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="icon" href="canteen.png" sizes="32x32 64x64" type="image/png">
+    <title>Raj Canteen</title>
 </head>
 
 <body>
@@ -16,9 +17,13 @@
         <nav id="navbar">
             <ul>
                 <li class="item"><a href="mainindex.html">Home</a></li>
-                <li class="item"><a href="#">About us</a></li>
+                <li class="item"><a href="#about">About us</a></li>
                 <li class="item"><a href="/login/login.html" target="_blank">Login</a></li>
                 <li class="item"><a href="/signup/signup.html" target="_blank">Sign up</a></li>
+                <div class="customerinfo">
+                    <img class="login_icon" src="login.png" alt="" srcset="">
+                    <li class="Customer_Name">Gaurav</li>
+               </div>
             </ul>
         </nav>
     </div>
@@ -30,12 +35,12 @@
         <nav id='menu'>
 
             <ul class="menubar">
-                <li class="m"><a href='#demo'>Pizza</a></li>
-                <li class="m"><a href='#'>Beverages</a></li>
-                <li class="m"><a href='#'>Pasta</a></li>
-                <li class="m"><a href='http://'>Maggie</a></li>
-                <li class="m"><a href='http://'>Desserts</a></li>
-                <li class="m"><a href='http://'>Fast Food</a></li>
+                <li class="m"><a href="#">Maggie</a></li>
+                <li class="m"><a href='#jumppizza'>Pizza</a></li>
+                
+                <li class="m"><a href='#jumpparatha'>Paratha</a></li>
+                <li class="m"><a href='#jumpcake'>Desserts</a></li>
+                <li class="m"><a href='#jumpchocolate'>Chocolate</a></li>
             </ul>
         </nav>
     </div>
@@ -47,30 +52,29 @@
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="maggi2.jpg" alt="" srcset="">
-                            <h4 class="itemname">Garlic Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p><br>
-
-                            <button class="btn" name="Create" type="Create">Order Now</button>
+                            <h4 class="itemname">Egg Maggi</h4><br>
+                            <p class="itemDescription">Delightful combination of onion, Egg and itself Maggi</p><br>
+                                <span>₹299</span>
+                            <button class="btn" name="Create" type="Create"><a class="pay" href="#">Order Now</a></button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="maggi3.jpg" alt="" srcset="">
-                            <h4 class="itemname">Chicken Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname" id="jumpparatha">Veg Maggi</h4><br>
+                            <p class="itemDescription">Delightful Maggi with Vegetables</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="maggi11.jpg" alt="" srcset="">
-                            <h4 class="itemname">Veg Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname">Masala Maggi</h4><br>
+                            <p class="itemDescription">Tasty Maggi with different Masala</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
@@ -80,43 +84,42 @@
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="Aloo.jpg" alt="" srcset="">
-                            <h4 class="itemname">Garlic Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p><br>
-
+                            <h4 class="itemname">Aloo Paratha</h4><br>
+                            <p class="itemDescription">Delicious Aloo Paratha with butter</p><br>
+                                <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="palak.jpg" alt="" srcset="">
-                            <h4 class="itemname">Chicken Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname">Panner Palak Paratha</h4><br>
+                            <p class="itemDescription">Delicious Palak Paratha with Paneer</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="anda.jpg" alt="" srcset="">
-                            <h4 class="itemname">Veg Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 id="jumppizza" class="itemname">Egg Paratha</h4><br>
+                            <p class="itemDescription">Delightful combination of onion, Egg and different Masala</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                 </tr>
                 <!-- pizza paratha -->
-                <tr>
+                <tr >
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="pizza.jpg" alt="" srcset="">
-                            <h4 class="itemname">Garlic Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
+                            <h4 class="itemname" id="jumpcake">Garlic Pizza</h4><br>
+                            <p class="itemDescription">Delightful combination of garlic, capsicum, tomato & grilled
                                 mushroom</p><br>
-
+                                <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
@@ -124,9 +127,9 @@
                         <div class="pizzabox-1">
                             <img class="menuimg" src="pizza2.jpg" alt="" srcset="">
                             <h4 class="itemname">Chicken Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <p class="itemDescription">Chicken Pizza </p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
@@ -134,9 +137,9 @@
                         <div class="pizzabox-1">
                             <img class="menuimg" src="pizza3.jpg" alt="" srcset="">
                             <h4 class="itemname">Veg Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <p class="itemDescription">Delicious pizza made with Vegetables</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
@@ -146,30 +149,29 @@
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="cake.jpeg" alt="" srcset="">
-                            <h4 class="itemname">Garlic Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p><br>
-
+                            <h4 class="itemname">Strawbarry Cake</h4><br>
+                            <p class="itemDescription">Delightful combination of Strawbarry,Chocolate</p><br>
+                                <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="cake2.jpg" alt="" srcset="">
-                            <h4 class="itemname">Chicken Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname">Chocolate Cake</h4><br>
+                            <p class="itemDescription">Tasty Cake made with the Chocolate</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="cake3.jpeg" alt="" srcset="">
-                            <h4 class="itemname">Veg Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname" id="jumpchocolate">Red Berry Cake</h4><br>
+                            <p class="itemDescription">Cake with the Berry</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
@@ -181,35 +183,34 @@
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="5star.jpg" alt="" srcset="">
-                            <h4 class="itemname">Garlic Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p><br>
-
+                            <h4 class="itemname">5-Star Chocolate</h4><br>
+                            <p class="itemDescription">Chocolate Made with pista</p><br>
+                                <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="chk.jpg" alt="" srcset="">
-                            <h4 class="itemname">Chicken Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname">Dairy-Milk</h4><br>
+                            <p class="itemDescription">Tasty Chocolate are here</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                     <td>
                         <div class="pizzabox-1">
                             <img class="menuimg" src="kitkat.jpg" alt="" srcset="">
-                            <h4 class="itemname">Veg Pizza</h4><br>
-                            <p class="itemDescription">Delightful combination of onion, capsicum, tomato & grilled
-                                mushroom</p>
+                            <h4 class="itemname">Kit-Kat Chocolate</h4><br>
+                            <p class="itemDescription">Chocolate.</p>
                             <br>
+                            <span>₹299</span>
                             <button class="btn" name="Create" type="Create">Order Now</button>
                         </div>
                     </td>
                 </tr>
-
+        
             </table>
         </center>
     </div>
