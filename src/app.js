@@ -25,7 +25,7 @@ const sendVerifyMail = async(name, email, user_id) => {
        // requireTLS: true,
        auth: {
            user:'abhisharma6444.as@gmail.com',
-           pass:'kohytbwrvxcjjivm',
+           pass:'GooglE_Provided_Key_Aayegi',
        },
    });
 
@@ -50,7 +50,7 @@ const sendVerifyMail2 = async(name, email, address, order, price) => {
        // requireTLS: true,
        auth: {
            user:'abhisharma6444.as@gmail.com',
-           pass:'kohytbwrvxcjjivm',
+           pass:'GooglE_Provided_Key_Aayegi',
        },
    });
 
